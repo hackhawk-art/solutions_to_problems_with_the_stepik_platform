@@ -4,6 +4,6 @@ class ElectricCar:
         self.owner = owner
 
 car = ElectricCar('black', 'Elon')
-car = ElectricCar(color='black', owner='Elon')
+car = ElectricCar(color='black', owner='Yan')
 car = ElectricCar('black', None)
 car = ElectricCar(owner='Elon', color='black')
