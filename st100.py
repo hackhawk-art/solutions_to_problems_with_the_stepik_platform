@@ -73,4 +73,4 @@ coordinates = [((64, 42, 11), (20, 40, 64)), ((50, 96, 60), (32, 26, 38)), ((46,
 for coord1, coord2 in coordinates:
     vector1 = Vector(*coord1)
     vector2 = Vector(*coord2)
-    print(vector1 == vector2, vector1 != vector2)
+    print(vector1 + vector2, vector1 * vector2)
